@@ -1,12 +1,12 @@
 name: rss2org
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.10
   - pip
   - pip:
-      - feedparser==6.0.10
-      - openai==1.13.3
-      - markdownify==0.11.6
-      - python-dotenv==1.0.1
+      - openai>=1.0.0
+      - httpx>=0.24
+      - feedparser
+      - markdownify
+      - python-dotenv
